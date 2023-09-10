@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:aqua;         
+                margin: 0;
+
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color:transparent;
+            box-shadow: 0 0 10px rgba(3, 5, 0, 0.932);
+            border-radius: 50px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 20px;
+            color: #fd096f;
+            font-weight: 500;
+        }
+
+        h1 {
+            color: #030007;
+            font-size: 68px;
+        }
+
+        .contact-form {
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #050000;
+            border-radius: 5px;
+            background-color:#fff;
+            color: #fff;
+            font-size: 28px;
+        }
+
+        textarea {
+            height: 150px;
+
+        }
+
+        .submit-button {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        button[type="submit"] {
+            background-color: #ff6b6b;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+    
+
+        button[type="submit"]:hover {
+            background-color: #ff4949;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .contact-info p {
+            color: #030000;
+        }
+
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            font-size: 24px;
+            color: #ff6b6b;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #ff4949;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><u>Contact Us</u></h1>
+            
+        </div>
+        <div class="contact-form">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone-no">Phone-no</label>
+                    <input type="text" id="phone-no" name="phone-no" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                
+                <div class="submit-button">
+                    <button type="submit"><a href="C:\Users\spdub\Documents\education\contact.html">Submit </a></button>
+                </div>
+                <div class="button">
+                    <button type="back"><a href="C:\Users\spdub\Documents\resturant\index.html">back </a></button>
+                </div>
+            </form>
+        </div>
+        <div class="contact-info">
+            <p>Contact Information:</p>
+            <p>Email: contact@example.com</p>
+            <p>Phone: +1 (123) 456-7890</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
